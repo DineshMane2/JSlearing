@@ -23,7 +23,7 @@ console.log(`================================`);
 for (let index = 0; index <= 10; index++) {
     console.log(index); 
 }
-console.log(`---------------------------`);
+console.log(`------------step-2---------------`);
 // Log numbers from 5 to 20
 for (let index = 5; index <=20; index++) {
     console.log(index);
@@ -55,4 +55,4 @@ console.log(`First 15 even numbers`);
 // First 15 even number
 for (let index = 0; index <30 ; index=index+2) {
     console.log(index); 
-}
+} 

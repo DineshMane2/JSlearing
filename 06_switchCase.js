@@ -61,3 +61,9 @@ dayOfWeek(7);
 dayOfWeek(null);
 dayOfWeek(undefined);
 dayOfWeek("GK");
+
+
+let text1 = "59999";
+let text2 = "8999999";
+let result = text1.concat(text2);
+console.log(result);
