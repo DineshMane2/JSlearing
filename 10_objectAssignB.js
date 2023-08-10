@@ -23,7 +23,7 @@ let collegeDetails = {
 }
 console.log(collegeDetails);
 
-console.log(`------------------------------------------------Step-3----------------------------------------------------------`);
+console.log(`------------------------------------------------Step-3----------------------------------------------------------`)
 let myDetailsMerged = Object.assign({},personalDetails,collegeDetails)
 console.table(myDetailsMerged);
 
@@ -37,10 +37,11 @@ console.log(` Creating aaray of my Friends name`);
 
 console.log(`------------------------------------------------Step-5----------------------------------------------------------`);
 console.log(`Using for loop, Loging Frinds Name on Console`);
-for (const friends of friendsname) {
+
+ for (const friends of friendsname) {
     console.log(`Friend name : ${friends}`);
     
-}
+ }
 
 console.log(`------------------------------------------------Step-6----------------------------------------------------------`);
 //console.log(`Using Spread operator ,string reverse`);
